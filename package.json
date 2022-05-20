@@ -1,0 +1,45 @@
+{
+  "name": "@openmrs/esm-refapp-styleguide-app",
+  "version": "1.0.2",
+  "description": "reference application based style guide for using with OpenMRS micro frontend",
+  "main": "dist/openmrs-esm-refapp-styleguide.js",
+  "scripts": {
+    "serve": "webpack-dev-server",
+    "start": "webpack-dev-server",
+    "build": "webpack",
+    "prepublishOnly": "npm run build"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@openmrs/style-referenceapplication": "^0.1.0"
+  },
+  "directories": {
+    "lib": "dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/openmrs/openmrs-esm-refapp-styleguide"
+  },
+  "keywords": [
+    "openmrs",
+    "refapp",
+    "styleguide"
+  ],
+  "devDependencies": {
+    "autoprefixer": "^9.6.1",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.2.0",
+    "cssnano": "^4.1.10",
+    "file-loader": "^4.2.0",
+    "http-server": "^0.12.3",
+    "mini-css-extract-plugin": "^0.8.0",
+    "postcss-loader": "^3.0.0",
+    "raw-loader": "^3.1.0",
+    "style-loader": "^1.0.0",
+    "systemjs-webpack-interop": "^1.1.0",
+    "webpack": "^4.35.3",
+    "webpack-cli": "^3.3.5",
+    "webpack-dev-server": "^3.11.0"
+  }
+}

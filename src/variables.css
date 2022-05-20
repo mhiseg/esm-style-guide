@@ -1,0 +1,48 @@
+:root {
+  /*fonts*/
+  --primary-font: "OpenSans";
+  --primary-bold-font: "OpenSans-bold";
+  --primary-light-font: "OpenSans-light";
+  --primary-italic-font: "OpenSans-italic";
+  --icon-font: "-fontAwesome";
+  --font-path: "../../fonts";
+
+  /*colors*/
+  --alert-background: #fffdf0;
+  --body-background: #eee;
+
+  --white: #ffffff;
+  --black: #000000;
+  --darker-grey: #bbb;
+  --lighter-grey: #f3f3f3;
+
+  /*openMrs colors*/
+  --highlight: #1c9b85;
+  --text: darken(#5b57a6, 20%);
+  --subtle-text: darken(var(--darker-grey), 25%);
+  --subtler-text: var(--darker-grey);
+  --disabled: #cccccc;
+  --bright-green: #00cc00;
+  --header-green: #00463f;
+
+  --link: #007fff;
+  --focus: #fffdf7;
+
+  --success: #a1d030;
+  --alert: #ffa000;
+  --error: #ff6666;
+  --success-background: #ddffdd;
+
+  --omrs-topnav-height: 60px;
+  
+  /*Overrides for esm-styleguide*/
+  --omrs-color-interaction: #00463f;
+  --omrs-color-interaction-plus-one: #00463f;
+  --omrs-color-bg-low-contrast: #fff;
+  
+  --omrs-bg-immunization-sequence-odd-row: #c4d7e6;
+  --omrs-bg-immunization-sequence-even-row: #e5f1fb;    
+  --omrs-bg-immunization-odd-row: #fff;
+  --omrs-bg-immunization-even-row: #eee;    
+  --omrs-bg-immunization-header: #c8cdd2;
+}

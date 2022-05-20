@@ -1,0 +1,119 @@
+body {
+  background: white !important;
+  max-width: 100%;
+  margin: 0;     
+}
+
+.header {
+  position: absolute;
+  top: 10px;  
+  height: calc(var(--omrs-topnav-height) - 10px);  
+  width: calc(100% - 2%);
+  background: var(--header-green);
+  border-radius: 7px;
+  display: flex;
+  justify-content: space-between;
+  color: white !important;  
+  margin: 0 1%;
+}
+
+.header a,
+.header a:visited,
+.header a:active {
+  color: white !important;
+}
+
+.content {
+  position: absolute;
+  top: var(--omrs-topnav-height);
+  left: 0px;
+  width: calc(100% - 2%);  
+  margin: 0 1%;
+}
+
+.logo {
+  width: 170px;
+  height: 60px;
+}
+
+.logo span {
+  background: url(../node_modules/@openmrs/style-referenceapplication/src/images/openmrs-with-title-small.png)
+    no-repeat !important;
+  width: 170px;
+  height: 60px;
+  display: block;
+  background-size: 170px 60px !important;
+}
+
+.breadcrumb {
+  color: var(--header-green);
+  margin: 10px 0px;
+}
+
+.breadcrumb a,
+.breadcrumb a:visited,
+.breadcrumb a:active {
+  color: var(--header-green);
+}
+
+.svg-icon {
+  display: inline-block;
+  width: 34px;
+  height: 28px;
+  vertical-align: middle;
+}
+
+.icon-calender {
+  background: url(./img/calender.svg) no-repeat;
+}
+
+.icon-todo {
+  background: url(./img/todo.svg) no-repeat;
+}
+
+.icon-graph {
+  background: url(./img/graph.svg) no-repeat;
+}
+
+.spinner {
+  background: url(./img/loading.gif) no-repeat;
+  display: inline-block;
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
+}
+
+.text-color {
+  color: var(--text);
+}
+
+.small-button {
+  min-width: 100px !important;
+  min-height: 42px;
+}
+
+.highlight {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.sub-text {
+  font-size: 12px;
+  white-space: normal;
+}
+
+.regular {
+  font-size: 16px;
+  white-space: normal;
+}
+
+.circle {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.center {
+  text-align: center !important;
+}
