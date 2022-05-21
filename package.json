@@ -1,15 +1,12 @@
 {
-  "name": "@mhiseg/esm-styleguide-app",
+  "name": "@openmrs/esm-styleguide-app",
   "version": "0.0.1",
   "description": "reference application based style guide for using with OpenMRS micro frontend",
-  "repo": "/openmrs/frontend/mhiseg-esm-styleguide-app",
-  "main": "dist/mhiseg-esm-styleguide.js",
+  "main": "dist/openmrs-esm-styleguide.js",
   "scripts": {
     "serve": "webpack-dev-server",
     "start": "webpack-dev-server",
     "build": "webpack",
-    "copy": "copyfiles -e dist/*.txt -f dist/*.* $npm_package_repo-$npm_package_version/",
-    "deploy": "yarn build && yarn copy",
     "prepublishOnly": "npm run build"
   },
   "author": "",
