@@ -6,10 +6,10 @@ module.exports = {
   entry: path.resolve(__dirname, "src/index.js"),
   output: {
     libraryTarget: "system",
-    filename: "openmrs-esm-refapp-styleguide.js",
+    filename: "mhiseg-esm-styleguide.js",
     chunkFilename: "[name].js",
     path: path.resolve(__dirname, "dist"),
-    jsonpFunction: "webpackJsonp_openmrs_esm_refapp_styleguide"
+    jsonpFunction: "webpackJsonp_mhiseg_esm_styleguide"
   },
   mode: "production",
   devtool: "sourcemap",
@@ -41,6 +41,6 @@ module.exports = {
   },
   plugins: [
     new CleanWebpackPlugin(),
-    new MiniCssExtractPlugin({ filename: "openmrs-esm-refapp-styleguide.css" })
+    new MiniCssExtractPlugin({ filename: "mhiseg-esm-styleguide.css" })
   ]
 };
