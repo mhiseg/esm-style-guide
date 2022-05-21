@@ -1,8 +1,8 @@
 {
-  "name": "@openmrs/esm-styleguide-app",
-  "version": "0.0.1",
+  "name": "@openmrs/esm-refapp-styleguide-app",
+  "version": "1.0.2",
   "description": "reference application based style guide for using with OpenMRS micro frontend",
-  "main": "dist/openmrs-esm-styleguide.js",
+  "main": "dist/openmrs-esm-refapp-styleguide.js",
   "scripts": {
     "serve": "webpack-dev-server",
     "start": "webpack-dev-server",
